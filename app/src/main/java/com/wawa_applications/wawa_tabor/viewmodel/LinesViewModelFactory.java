@@ -10,6 +10,7 @@ public class LinesViewModelFactory implements ViewModelProvider.Factory {
 
     public LinesViewModelFactory(String apiKey) {
         this.apiKey = apiKey;
+        // test code....
     }
 
     @NonNull
