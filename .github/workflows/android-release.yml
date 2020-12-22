@@ -2,8 +2,15 @@ name: Android Release
 
 on:
   workflow_dispatch:
-    branches:
-      - 'release*'
+   inputs:
+      logLevel:
+        description: 'Log level'     
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Test scenario tags'  
+#     branches:
+#       - 'release*'
 
 jobs:
 
